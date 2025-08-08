@@ -1,15 +1,15 @@
-# Tutorial 2: Tipos de Variables en SAS
+# 2. Tipos de Variables en SAS
 
 [← Volver al inicio](./index.html)
 
 ## ¿Qué son las variables en SAS?
 
-Las variables son las columnas de una tabla y los registros son las filas. En SAS tenemos **dos tipos principales** de variables:
+Las variables son las columnas de una tabla y los registros u observaciones son las filas. En SAS tenemos **dos tipos principales** de variables:
 
 - **Variables Numéricas** - para números y cálculos.
 - **Variables de Texto (Character)** - para letras y palabras.
 
-> 💡 **Nota**: SAS también tiene tipos más avanzados como fechas, formatos especiales y variables categóricas que veremos en el [Tutorial 8: Variables avanzadas y formatos](./tutorial-08-variables-avanzadas.html).
+> 💡 **Nota**: SAS también tiene tipos más avanzados como fechas, formatos especiales y variables categóricas que veremos en el [8. Variables avanzadas y formatos](./08-variables-avanzadas.html).
 
 ## 🔢 Variables Numéricas
 
@@ -141,9 +141,9 @@ Esto te mostrará:
 1. **Planifica tus variables**: Decide qué tipo necesitas antes de crearlas.
 2. **Longitud suficiente**: Para texto como con la comida, mejor que sobre que no que falte. Si algún registro (o todos ellos) tiene mayor longitud de la especificada en la variable, el texto se truncará (se cortará). 
 3. **Consistencia**: Usa el mismo tipo para variables similares.
-4. **Nombres descriptivos**: `edad` es mejor que `var1`. Evita espacios y tildes en los nombres de las variables para no tener problemas al nombrarlas.
+4. **Nombres descriptivos**: `edad` es mejor que `var1`. Evita espacios, tildes y caracteres especiales como la ñ en los nombres de las variables para no tener problemas al utilizarlas posteriormente.
 
-> 🚀 **¿Quieres conocer más variables?** Si quieres trabajar con fechas, formatos especiales y variables categóricas, ve al [Tutorial 8: Variables avanzadas](./tutorial-08-variables-avanzadas.html).
+> 🚀 **¿Quieres conocer más variables?** Si quieres trabajar con fechas, formatos especiales y variables categóricas, ve al [8. Variables avanzadas](./08-variables-avanzadas.html).
 
 ## ⚡ Ejercicio práctico
 
@@ -156,8 +156,8 @@ Crea un dataset con información de productos:
 
 ## 🔗 Enlaces relacionados
 
-- [← Tutorial 1: Introducción a SAS](./tutorial-01-introduccion.html)
-- [Tutorial 3: Librerías y datasets →](./tutorial-03-librerias.html)
+- [← 1. Introducción a SAS](./01-introduccion.html)
+- [3. Librerías y datasets →](./03-librerias.html)
 
 ---
 
