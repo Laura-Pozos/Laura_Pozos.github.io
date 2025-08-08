@@ -1,4 +1,4 @@
-# Tutorial 1: Introducción a SAS - Primeros pasos
+# 1. Introducción a SAS - Primeros pasos
 
 [← Volver al inicio](./index.html)
 
@@ -30,7 +30,7 @@ proc print data=mi_primer_dataset;
 run;
 ```
 
-⭐ Lee el siguiente [tutorial sobre tipos de variables](./tutorial-02-tipos-variables.html) para dominar las variables numéricas y de texto.
+⭐ Lee la siguiente [guía sobre tipos de variables](./02-tipos-variables.html) para dominar las variables numéricas y de texto.
 
 ### ¿Qué hace este código?
 
@@ -73,10 +73,10 @@ Intenta crear un dataset con información sobre ti:
 
 ## 🔗 Próximo tutorial
 
-En el [Tutorial 2: Tipos de variables](./tutorial-02-tipos-variables.html) aprenderemos en detalle sobre variables numéricas y de texto en SAS.
+En el [2. Tipos de variables](./02-tipos-variables.html) aprenderemos en detalle sobre variables numéricas y de texto en SAS.
 
 ---
 
-[← Volver al inicio](./index.html) | [Siguiente tutorial →](./tutorial-02-tipos-variables.html)
+[← Volver al inicio](./index.html) | [Siguiente →](./02-tipos-variables.html)
 
 *¿Te ha sido útil este tutorial? ¡Compártelo en LinkedIn!*
