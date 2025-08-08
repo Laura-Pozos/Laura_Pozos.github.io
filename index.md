@@ -19,7 +19,7 @@ Como siempre, los inicios no fueron fáciles, pero sí muy satisfactorios. Para 
 - [Tutorial 5: Importar y exportar datos](./tutorial-05-importar-exportar.html)
 - [Tutorial 6: Filtros y condiciones](./tutorial-06-filtros.html)
 - [Tutorial 7: Crear nuevas variables](./tutorial-07-variables.html)
-- - [Tutorial 8: Variables avanzadas y formatos](./tutorial-08-variables-avanzadas.html)
+- [Tutorial 8: Variables avanzadas y formatos](./tutorial-08-variables-avanzadas.html)
 - [Tutorial 9: Modificar y transformar datos](./tutorial-09-transformar.html)
 
 ### 3. Análisis y Procedimientos
