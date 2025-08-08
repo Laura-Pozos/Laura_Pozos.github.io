@@ -139,20 +139,20 @@ Esto te mostrará:
 ## 💡 Consejos importantes
 
 1. **Planifica tus variables**: Decide qué tipo necesitas antes de crearlas.
-2. **Longitud suficiente**: Para texto, mejor sobrar que faltar espacio
-3. **Consistencia**: Usa el mismo tipo para variables similares
-4. **Nombres descriptivos**: `edad` es mejor que `var1`
+2. **Longitud suficiente**: Para texto como con la comida, mejor que sobre que no que falte. Si algún registro (o todos ellos) tiene mayor longitud de la especificada en la variable, el texto se truncará (se cortará). 
+3. **Consistencia**: Usa el mismo tipo para variables similares.
+4. **Nombres descriptivos**: `edad` es mejor que `var1`. Evita espacios y tildes en los nombres de las variables para no tener problemas al nombrarlas.
 
-> 🚀 **¿Quieres más?** Este tutorial cubre los tipos básicos. Para fechas, formatos especiales y variables categóricas, ve al [Tutorial 9: Variables avanzadas](./tutorial-09-variables-avanzadas.html).
+> 🚀 **¿Quieres conocer más variables?** Si quieres trabajar con fechas, formatos especiales y variables categóricas, ve al [Tutorial 9: Variables avanzadas](./tutorial-09-variables-avanzadas.html).
 
 ## ⚡ Ejercicio práctico
 
 Crea un dataset con información de productos:
 - `codigo`: numérico (ej: 1001, 1002)
-- `nombre`: texto (ej: "Laptop HP")
-- `categoria`: texto (ej: "Informática")
-- `precio`: numérico (ej: 599.99)
-- `stock`: numérico (ej: 25)
+- `nombre`: texto (ej: "Seguro de Hogar")
+- `categoria`: texto (ej: "Seguros")
+- `prima`: numérico (ej: 499.99)
+- `canal`: numérico (ej: 2)
 
 ## 🔗 Enlaces relacionados
 
