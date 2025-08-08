@@ -30,15 +30,15 @@ proc print data=mi_primer_dataset;
 run;
 ```
 
-?** Lee el siguiente [tutorial sobre tipos de variables](./tutorial-tipos-variables.html) para dominar las variables numéricas y de texto.
+?** Lee el siguiente [tutorial sobre tipos de variables](./tutorial-02-tipos-variables.html) para dominar las variables numéricas y de texto.
 
 ### ¿Qué hace este código?
 
-1. **`data mi_primer_dataset;`** - Crea un nuevo dataset
+1. **`data mi_primer_dataset;`** - Crea un nuevo set de datos o dataset.
 2. **`input`** - Define las variables y sus tipos ($ = texto)
-3. **`datalines;`** - Inicia la sección de datos
+3. **`datalines;`** - Inicia la sección de datos.
 4. **`run;`** - Ejecuta el paso DATA
-5. **`proc print`** - Muestra el contenido del dataset
+5. **`proc print`** - Muestra el contenido del dataset.
 
 ## Resultado esperado
 
