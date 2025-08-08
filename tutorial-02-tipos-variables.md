@@ -9,7 +9,7 @@ Las variables son las columnas de una tabla y los registros son las filas. En SA
 - **Variables Numéricas** - para números y cálculos.
 - **Variables de Texto (Character)** - para letras y palabras.
 
-> 💡 **Nota**: SAS también tiene tipos más avanzados como fechas, formatos especiales y variables categóricas que veremos en el [Tutorial 9: Variables avanzadas y formatos](./tutorial-09-variables-avanzadas.html).
+> 💡 **Nota**: SAS también tiene tipos más avanzados como fechas, formatos especiales y variables categóricas que veremos en el [Tutorial 8: Variables avanzadas y formatos](./tutorial-08-variables-avanzadas.html).
 
 ## 🔢 Variables Numéricas
 
@@ -143,7 +143,7 @@ Esto te mostrará:
 3. **Consistencia**: Usa el mismo tipo para variables similares.
 4. **Nombres descriptivos**: `edad` es mejor que `var1`. Evita espacios y tildes en los nombres de las variables para no tener problemas al nombrarlas.
 
-> 🚀 **¿Quieres conocer más variables?** Si quieres trabajar con fechas, formatos especiales y variables categóricas, ve al [Tutorial 9: Variables avanzadas](./tutorial-09-variables-avanzadas.html).
+> 🚀 **¿Quieres conocer más variables?** Si quieres trabajar con fechas, formatos especiales y variables categóricas, ve al [Tutorial 8: Variables avanzadas](./tutorial-08-variables-avanzadas.html).
 
 ## ⚡ Ejercicio práctico
 
