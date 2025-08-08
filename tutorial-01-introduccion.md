@@ -30,7 +30,7 @@ proc print data=mi_primer_dataset;
 run;
 ```
 
-?** Lee el siguiente [tutorial sobre tipos de variables](./tutorial-02-tipos-variables.html) para dominar las variables numéricas y de texto.
+⭐ Lee el siguiente [tutorial sobre tipos de variables](./tutorial-02-tipos-variables.html) para dominar las variables numéricas y de texto.
 
 ### ¿Qué hace este código?
 
