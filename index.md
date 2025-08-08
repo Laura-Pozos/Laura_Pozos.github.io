@@ -1,32 +1,34 @@
-# SAS para Iniciados
+# SAS para Principiantes 
 
 ## ¡Bienvenidos al mundo de SAS! 🚀
 
-Cuando comencé a trabajar con SAS para realizar extracciones de datos y análisis, descubrí rápidamente el enorme potencial de esta herramienta, tanto para el manejo de datos como para la automatización de procesos.
+Cuando comencé a trabajar con SAS para realizar extracciones de datos y análisis, descubrí rápidamente el enorme potencial de esta herramienta, tanto para trabajar con datos como para la automatización de procesos.
 
-Como siempre, los inicios no fueron fáciles, pero sí muy satisfactorios. Para aquellos que estáis dando vuestros primeros pasos con SAS, espero que estos tutoriales os ayuden a ganar confianza en la programación y os abran una pequeña ventana al increíble potencial que tiene esta herramienta.
+Como siempre, los inicios no fueron fáciles, pero sí muy satisfactorios. Para aquellos que estáis dando vuestros primeros pasos con SAS, espero que estas guías os ayuden a ganar confianza en la programación y os abran una pequeña ventana al increíble potencial que tiene esta herramienta.
 
 ---
 
-## 📚 Tutoriales Disponibles
+## 📚 Guías Disponibles
 
-### 1. Fundamentos de SAS
-- [Introducción a SAS: Primeros pasos](./tutorial-01-introduccion.html)
-- [Entendiendo las librerías y datasets](./tutorial-02-librerias.html)
-- [DATA Step vs PROC Step](./tutorial-03-data-vs-proc.html)
+- [Tutorial 1: Introducción a SAS - Primeros pasos](./tutorial-01-introduccion.html)
+- [Tutorial 2: Tipos de variables en SAS](./tutorial-02-tipos-variables.html)
+- [Tutorial 3: Librerías y datasets](./tutorial-03-librerias.html)
+- [Tutorial 4: DATA Step vs PROC Step](./tutorial-04-data-vs-proc.html)
 
 ### 2. Manipulación de Datos
-- [Importar y exportar datos](./tutorial-04-importar-exportar.html)
-- [Filtros y condiciones](./tutorial-05-filtros.html)
-- [Crear nuevas variables](./tutorial-06-variables.html)
+- [Tutorial 5: Importar y exportar datos](./tutorial-05-importar-exportar.html)
+- [Tutorial 6: Filtros y condiciones](./tutorial-06-filtros.html)
+- [Tutorial 7: Crear nuevas variables](./tutorial-07-variables.html)
+- [Tutorial 8: Modificar y transformar datos](./tutorial-08-transformar.html)
 
 ### 3. Análisis y Procedimientos
-- [Procedimientos estadísticos básicos](./tutorial-07-proc-estadisticos.html)
-- [Generación de reportes](./tutorial-08-reportes.html)
+- [Tutorial 9: Variables avanzadas y formatos](./tutorial-09-variables-avanzadas.html)
+- [Tutorial 10: Procedimientos estadísticos básicos](./tutorial-10-proc-estadisticos.html)
+- [Tutorial 11: Generación de reportes](./tutorial-11-reportes.html)
 
 ### 4. Automatización
-- [Introducción a las macros](./tutorial-09-macros.html)
-- [Automatizar procesos repetitivos](./tutorial-10-automatizacion.html)
+- [Tutorial 12: Introducción a las macros](./tutorial-12-macros.html)
+- [Tutorial 13: Automatizar procesos repetitivos](./tutorial-13-automatizacion.html)
 
 ---
 
