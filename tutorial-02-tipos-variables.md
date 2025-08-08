@@ -4,10 +4,10 @@
 
 ## ¿Qué son las variables en SAS?
 
-Las variables son las columnas de nuestros datos. En SAS tenemos **dos tipos principales** de variables que veremos en este tutorial:
+Las variables son las columnas de una tabla y los registros son las filas. En SAS tenemos **dos tipos principales** de variables:
 
-- **Variables Numéricas** - para números y cálculos
-- **Variables de Texto (Character)** - para letras y palabras
+- **Variables Numéricas** - para números y cálculos.
+- **Variables de Texto (Character)** - para letras y palabras.
 
 > 💡 **Nota**: SAS también tiene tipos más avanzados como fechas, formatos especiales y variables categóricas que veremos en el [Tutorial 9: Variables avanzadas y formatos](./tutorial-09-variables-avanzadas.html).
 
@@ -27,10 +27,10 @@ run;
 ```
 
 ### Características de las variables numéricas:
-- **No necesitan** el símbolo `$` en el INPUT
-- Pueden tener **decimales** (usa punto, no coma)
+- **No hay que incluir** el símbolo `$` en el INPUT.
+- Pueden tener **decimales** (usa punto, no coma).
 - Permiten **cálculos matemáticos**
-- **Valores perdidos** se representan con punto (.)
+- **Valores perdidos o nulos** se representan con punto (.).
 
 ## 📝 Variables de Texto (Character)
 
@@ -40,18 +40,18 @@ Son variables que contienen **texto, letras o caracteres**.
 data ejemplo_texto;
     input nombre $ ciudad $ genero $;
     datalines;
-    Juan Madrid M
-    María Barcelona F
+    Pablo Granada M
+    Laura Barcelona F
     Carlos Valencia M
     ;
 run;
 ```
 
 ### Características de las variables de texto:
-- **Requieren** el símbolo `$` en el INPUT
-- **No permiten** cálculos matemáticos
-- **Sensibles** a mayúsculas/minúsculas
-- **Longitud máxima** por defecto: 8 caracteres
+- **Requieren** el símbolo `$` en el INPUT.
+- **No permiten** cálculos matemáticos.
+- **Sensibles** a mayúsculas/minúsculas.
+- **Longitud máxima** por defecto: 8 caracteres.
 
 ## ⚠️ Longitud de las variables de texto
 
@@ -61,13 +61,13 @@ Si tu texto tiene más de 8 caracteres, debes especificar la longitud:
 data ejemplo_longitud;
     input nombre $15. apellidos $25. ciudad $20.;
     datalines;
-    Juan "García López" "Las Palmas de Gran Canaria"
-    María "Fernández Ruiz" Barcelona
+    Roberto "García López" "Las Palmas de Gran Canaria"
+    Ana "Fernández Ruiz" Barcelona
     ;
 run;
 ```
 
-**Nota**: Usa comillas cuando el texto contiene espacios.
+**Nota**: Usa comillas cuando el texto contiene espacios para que lo trate como información de la misma variable.
 
 ## 🔄 Ejemplo mixto (números y texto)
 
@@ -124,7 +124,7 @@ run;
 
 ## 🔍 Cómo identificar el tipo de variable
 
-Usa `PROC CONTENTS` para ver información sobre tus variables:
+Usa `PROC CONTENTS` para ver información sobre las variables de cualquier tabla, por ejemplo, la de empleados que acabamos de crear:
 
 ```sas
 proc contents data=empleados;
@@ -132,13 +132,13 @@ run;
 ```
 
 Esto te mostrará:
-- **Type**: Num (numérica) o Char (texto)
-- **Len**: Longitud de la variable
-- **Format**: Formato de visualización
+- **Type**: Num (numérica) o Char (texto). 
+- **Len**: Longitud de la variable.
+- **Format**: Formato de visualización.
 
 ## 💡 Consejos importantes
 
-1. **Planifica tus variables**: Decide qué tipo necesitas antes de crearlas
+1. **Planifica tus variables**: Decide qué tipo necesitas antes de crearlas.
 2. **Longitud suficiente**: Para texto, mejor sobrar que faltar espacio
 3. **Consistencia**: Usa el mismo tipo para variables similares
 4. **Nombres descriptivos**: `edad` es mejor que `var1`
