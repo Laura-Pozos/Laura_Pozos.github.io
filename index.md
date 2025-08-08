@@ -10,36 +10,33 @@ Como siempre, los inicios no fueron fáciles, pero sí muy satisfactorios. Para 
 
 ## 📚 Guías Disponibles
 
-- [Tutorial 1: Introducción a SAS - Primeros pasos](./tutorial-01-introduccion.html)
-- [Tutorial 2: Tipos de variables en SAS](./tutorial-02-tipos-variables.html)
-- [Tutorial 3: Librerías y datasets](./tutorial-03-librerias.html)
-- [Tutorial 4: DATA Step vs PROC Step](./tutorial-04-data-vs-proc.html)
+- [1. Introducción a SAS - Primeros pasos](./01-introduccion.html)
+- [2. Tipos de variables en SAS](./02-tipos-variables.html)
+- [3. Librerías y datasets](./03-librerias.html)
+- [4. DATA Step vs PROC Step](./04-data-vs-proc.html)
 
 ### 2. Manipulación de Datos
-- [Tutorial 5: Importar y exportar datos](./tutorial-05-importar-exportar.html)
-- [Tutorial 6: Filtros y condiciones](./tutorial-06-filtros.html)
-- [Tutorial 7: Crear nuevas variables](./tutorial-07-variables.html)
-- [Tutorial 8: Variables avanzadas y formatos](./tutorial-08-variables-avanzadas.html)
-- [Tutorial 9: Modificar y transformar datos](./tutorial-09-transformar.html)
+- [5. Importar y exportar datos](./05-importar-exportar.html)  
+- [6. Filtros y condiciones](./06-filtros.html)  
+- [7. Crear nuevas variables](./07-variables.html)  
+- [8. Variables avanzadas y formatos](./08-variables-avanzadas.html)  
+- [9. Modificar y transformar datos](./09-transformar.html)  
 
 ### 3. Análisis y Procedimientos
-
-- [Tutorial 10: Procedimientos estadísticos básicos](./tutorial-10-proc-estadisticos.html)
-- [Tutorial 11: Generación de reportes](./tutorial-11-reportes.html)
+- [10. Procedimientos estadísticos básicos](./10-proc-estadisticos.html)  
+- [11. Generación de reportes](./11-reportes.html)  
 
 ### 4. Automatización
-- [Tutorial 12: Introducción a las macros](./tutorial-12-macros.html)
-- [Tutorial 13: Automatizar procesos repetitivos](./tutorial-13-automatizacion.html)
+- [12. Introducción a las macros](./12-macros.html)  
+- [13. Automatizar procesos repetitivos](./13-automatizacion.html)
 
 ---
 
-## 🎯 ¿Para quién es esta web?
-
-Esta web está dirigida a:
-- **Principiantes** que quieren aprender SAS desde cero
-- **Analistas** que necesitan refrescar conceptos básicos
-- **Estudiantes** de estadística, económicas o ciencias de datos
-- **Profesionales** que quieren automatizar sus procesos de datos
+## 🎯 Esta web está dirigida a:
+- **Principiantes** que quieren aprender SAS desde cero.
+- **Analistas** que necesitan refrescar conceptos básicos.
+- **Estudiantes** de estadística, económicas o ciencias de datos.
+- **Profesionales** que quieren automatizar sus procesos de datos.
 
 ---
 
