@@ -12,7 +12,13 @@ SAS (Statistical Analysis System) es una herramienta potente para:
 
 ## Mi primer programa SAS
 
-Empecemos con algo sencillo. Este programa crea un dataset y muestra su contenido:
+Empecemos con algo sencillo. Desde la pestaña Archivo vamos a crear un nuevo programa:
+
+<img width="517" height="128" alt="image" src="https://github.com/user-attachments/assets/a10cb947-a103-49ef-9a9a-704acba2dbca" />
+
+
+
+Este programa crea un dataset y muestra su contenido:
 
 ```sas
 /* Mi primer programa SAS */
@@ -40,16 +46,10 @@ run;
 4. **`run;`** - Ejecuta el paso DATA
 5. **`proc print`** - Muestra el contenido del dataset.
 
-## Resultado esperado
+## Resultado 
 
-```
-Mi primera tabla en SAS
+<img width="223" height="117" alt="image" src="https://github.com/user-attachments/assets/cf371d3b-e494-40c7-b9fc-dd08751a8991" />
 
-Obs    nombre     edad    ciudad
- 1     Pablo       25     Granada
- 2     Laura      30      Barcelona  
- 3     Carlos     28      Valencia
-```
 
 ## Conceptos clave 
 
