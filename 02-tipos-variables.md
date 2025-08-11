@@ -80,9 +80,6 @@ Hemos puesto 11 caracteres para la variable ciudad por lo que ahora podremos lee
 ## Espacios en las variables de texto
 
 Al crear variables de texto que contengan espacios, SAS necesita instrucciones para acotarlas correctamente. Para ello, necesitaremos:
-tenemos que decirle a SAS hasta dónde debe coger y para ello añadiremos en el código `infile datalines dlm=' ' dsd;`,  utilizaremos `""` como delimitadores y añadiremos `:` en el tipo de variable: `:$12.`
-Aquí dsd hace que SAS interprete que las comillas dobles agrupan texto con espacios y no lo divide, y dlm=' ' indica que el delimitador es el espacio.
-
 
 1. **`infile datalines dlm=' ' dsd;`** - Le dice a SAS que el delimitador entre variables es el espacio y que interprete las comillas dobles como agrupadores de texto.
 2. **Comillas dobles `""`** - Para agrupar el texto que necesitemos que contenga espacios.  
