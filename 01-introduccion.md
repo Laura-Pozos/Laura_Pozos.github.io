@@ -50,6 +50,8 @@ run;
 
 <img width="223" height="117" alt="image" src="https://github.com/user-attachments/assets/cf371d3b-e494-40c7-b9fc-dd08751a8991" />
 
+Como veréis, se ha truncado la ciudad de Barcelona porque tiene más de 8 caracteres. Si no especificamos un número mayor al crear la variable de texto, por defecto SAS la crea con un máximo de 8 caracteres.
+En la guía [2. Tipos de variables](./02-tipos-variables.html) aprenderemos cómo crear variables de texto con mayor longitud para evitar que esto ocurra.
 
 ## Conceptos clave 
 
@@ -73,7 +75,7 @@ Intenta crear un dataset con información sobre ti:
 
 ## 🔗 Próximo tutorial
 
-En el [2. Tipos de variables](./02-tipos-variables.html) aprenderemos en detalle sobre variables numéricas y de texto en SAS.
+En [2. Tipos de variables](./02-tipos-variables.html) aprenderemos en detalle sobre variables numéricas y de texto en SAS.
 
 ---
 
