@@ -53,33 +53,55 @@ run;
 - **Sensibles** a mayúsculas/minúsculas.
 - **Longitud máxima** por defecto: 8 caracteres.
 
-## ⚠️ Longitud de las variables de texto
+## Longitud de las variables de texto
 
-Si tu texto tiene más de 8 caracteres, debes especificar la longitud:
+Como veíamos en el apartado anterior, si la variable de texto tiene más de 8 caracteres, debes especificar la longitud: 
 
 ```sas
-data ejemplo_longitud;
-    input nombre $15. apellidos $25. ciudad $20.;
+/* Mi primer programa SAS */
+data mi_primer_dataset;
+    input nombre $ edad ciudad $11.;
     datalines;
-    Roberto "García López" "Las Palmas de Gran Canaria"
-    Ana "Fernández Ruiz" Barcelona
+    Pablo 25 Granada
+    Laura 30 Barcelona
+    Carlos 28 Valencia
     ;
+run;
+
+proc print data=mi_primer_dataset;
+    title "Mi primera tabla en SAS";
 run;
 ```
 
-**Nota**: Usa comillas cuando el texto contiene espacios para que lo trate como información de la misma variable.
+Hemos puesto 11 caracteres para la variable ciudad por lo que ahora podremos leer todas las ciudades del ejemplo completas:
 
-## 🔄 Ejemplo mixto (números y texto)
+<img width="241" height="118" alt="image" src="https://github.com/user-attachments/assets/9cb5939d-8ba0-4eca-95eb-f5a68e063a85" />
+
+## Espacios en las variables de texto
+
+Al crear variables de texto que contengan espacios, SAS necesita instrucciones para acotarlas correctamente. Para ello, necesitaremos:
+tenemos que decirle a SAS hasta dónde debe coger y para ello añadiremos en el código `infile datalines dlm=' ' dsd;`,  utilizaremos `""` como delimitadores y añadiremos `:` en el tipo de variable: `:$12.`
+Aquí dsd hace que SAS interprete que las comillas dobles agrupan texto con espacios y no lo divide, y dlm=' ' indica que el delimitador es el espacio.
+
+
+1. **`infile datalines dlm=' ' dsd;`** - Le dice a SAS que el delimitador entre variables es el espacio y que interprete las comillas dobles como agrupadores de texto.
+2. **Comillas dobles `""`** - Para agrupar el texto que necesitemos que contenga espacios.  
+3. **Dos puntos `:$longitud.`** - Los dos puntos permiten que la variable use menos caracteres si no los necesita.
+
+En el siguiente ejemplo creamos una nueva tabla con variables numéricas y de texto con espacios:
 
 ```sas
+
 data empleados;
-    input id nombre $12. departamento $15. salario edad;
+    infile datalines dlm=' ' dsd;
+    input id nombre :$20. departamento :$20. salario edad;
     datalines;
-    1001 "Juan Pérez" Ventas 35000 28
-    1002 "Ana García" Marketing 42000 32
+    1001 "Juan Pérez" "Ventas" 35000 28
+    1002 "Ana García" "Marketing" 42000 32
     1003 "Luis Martín" "Recursos Humanos" 38000 29
-    ;
+;
 run;
+
 
 proc print data=empleados;
     title "Listado de Empleados";
@@ -87,14 +109,10 @@ run;
 ```
 
 ### Resultado:
-```
-Listado de Empleados
 
-Obs     id    nombre        departamento        salario    edad
- 1     1001   Juan Pérez    Ventas              35000      28
- 2     1002   Ana García    Marketing           42000      32
- 3     1003   Luis Martín   Recursos Humanos    38000      29
-```
+<img width="383" height="116" alt="image" src="https://github.com/user-attachments/assets/8cad049f-1efd-436b-acd3-c7fe4e728f89" />
+
+
 
 ## 🧮 Operaciones con variables
 
@@ -109,6 +127,8 @@ data calculos;
     ;
 run;
 ```
+<img width="305" height="80" alt="image" src="https://github.com/user-attachments/assets/8e6057fa-f134-41af-a92d-5f8792a193b3" />
+
 
 ### Con variables de texto:
 ```sas
@@ -121,20 +141,21 @@ data textos;
     ;
 run;
 ```
+<img width="318" height="121" alt="image" src="https://github.com/user-attachments/assets/dadef647-48a2-4a1d-ba2c-94eec1ae36a1" />
+
 
 ## 🔍 Cómo identificar el tipo de variable
 
 Usa `PROC CONTENTS` para ver información sobre las variables de cualquier tabla, por ejemplo, la de empleados que acabamos de crear:
 
 ```sas
-proc contents data=empleados;
-run;
+proc contents data=empleados; run;
 ```
 
-Esto te mostrará:
-- **Type**: Num (numérica) o Char (texto). 
-- **Len**: Longitud de la variable.
-- **Format**: Formato de visualización.
+Esto te mostrará mucha información sobre la tabla seleccionada (número de observaciones, variables, tamaño...), destacando especialmente el detalle de cada una de las variables:
+- **Tipo**: Num (numérica) o Alfanumérica/Char (texto). 
+- **Long**: Longitud de la variable.
+
 
 ## 💡 Consejos importantes
 
